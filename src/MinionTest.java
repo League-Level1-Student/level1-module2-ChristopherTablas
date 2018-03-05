@@ -11,7 +11,7 @@ import org.junit.Test;
 /**
  * To make these tests pass, you will need to create a Minion class with the member variables below.
  * 
- * <code>
+ * <code> 
  * 			private String name; 
  * 			private int eyes; 
  * 			private String color; 
@@ -21,9 +21,8 @@ import org.junit.Test;
  * Create a constructor, and getters and setters for the member variables. If they’re done right, these tests will pass.
  * 
  * **/
-
 public class MinionTest {
-
+	
 	@Test
 	public void testConstructor() {
 		Minion stuart = new Minion("Stuart", 1, "yellow", "");
